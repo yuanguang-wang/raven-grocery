@@ -30,3 +30,9 @@ app = uiapp.Application
 uidoc = uiapp.ActiveUIDocument
 
 #######OK NOW YOU CAN CODE########
+
+TransactionManager.Instance.EnsureInTransaction(doc)
+
+TransactionManager.Instance.TransactionTaskDone()	
+
+##################################
